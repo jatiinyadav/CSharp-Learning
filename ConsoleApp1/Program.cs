@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 namespace Program
 {
-
     class Prog2 {
         public int num = 10;
         public string str = "Jatin Yadav";
