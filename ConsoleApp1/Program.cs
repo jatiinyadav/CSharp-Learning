@@ -1,13 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-namespace Program
+namespace ConsoleApp1
 {
-    class Prog2 {
+    class Prog2
+    {
         public int num = 10;
-        public string str = "Jatin Yadav";
+        public string str = "C# Learning";
         public double db = 23.33;
         public bool bl = false;
         public char ch = 'a';
-
     }
     class Prog
     {
@@ -15,7 +15,12 @@ namespace Program
         {
             Console.WriteLine("Hello You There");
 
-            Prog2 prog2 = new();
+            Class1 cls = new();
+            cls.SetTutorial(9, "Heyyyy");
+
+
+            Prog2 prog2 = new Prog2();
+            Console.WriteLine(prog2.num);
 
             int number = 11;
 
@@ -23,7 +28,8 @@ namespace Program
             if (number > 12)
             {
                 Console.WriteLine("Greater");
-            } else
+            }
+            else
             {
                 Console.WriteLine("Smaller");
             }
@@ -31,9 +37,11 @@ namespace Program
             // Switch
             switch (number)
             {
-                case 10: Console.WriteLine("10 value is there");
+                case 10:
+                    Console.WriteLine("10 value is there");
                     break;
-                case 11: Console.WriteLine("11 value is there");
+                case 11:
+                    Console.WriteLine("11 value is there");
                     break;
             }
 
